@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+      body{
+            background-image: url('https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+            min-height : 100%; 
+  /* min-width : 100%; */
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+   overflow-y: hidden; 
+   overflow-x: hidden; 
+ height: 100vh; 
+
+            }
+            .a{
+              display: inline-block;
+            }
+
+            @keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.e{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 2.0s steps(40,end),
+    blink-caret .75s step-end infinite;
+text-align: center;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+                </style>
+</head>
+
+<body>
+  <!-- <img class="b"src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="error"> -->
+  <header class="bg-pink-100 inline-block flex flex-row">
+      <p class="text-black-400 px-36 pt-2 pb-2">+9162718793</p>
+      <a class="ml-[50%] py-2 mix-blend-multiply " href="https://icons8.com/icons/set/facebook" target="_blank"><img src="./icons/ic_facebook.png" alt="error"></a>
+      <a class="ml-[30%] py-2 mix-blend-multiply " href="#" target="_blank"><img src="./icons/ic_insta.png" alt="error"></a>
+      <!-- <img class="mix-blend-scren opacity-100 px-96" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHZ1ZJA0hnLg8W5zrEO2sSzJN8ir-qd9WeVw&usqp=CAU" alt="error"> -->
+  </header>
+<br>
+  <div class="  z-20 flex-row flex justify-evenly items-center content-center self-auto " >
+      <p class="text-4xl tracking-wider font-bold italic  underline decoration-wavy shadow-md text-white ">GYM</p>
+      <p class=" flex flex-row w-1/2">
+          <ul class="flex flex-row justify-end text-2xl  inline-block mr-4 capitalize">
+              <li class="text-green-400 px-2"><a href="#">home</a></li>
+              <li class=" text-white px-2"><a href="#">contact</a></li>
+              <li class="text-white px-2"><a href="#">Apply now</a></li>
+          </ul>
+      </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="text-9xl text-red-200 ml-[30%] py-4 opacity-40 underline decoration-1 font-bold w-50 gap-x-11">THE GYM &nbsp &nbsp &nbsp </div>
+<div class="flex inline block ">
+    <p class="text-7xl underline decoration-1 font-bold text-white opacity-60 ml-[10%]">GYM </p>
+
+<p class="text-7xl underline decoration-1 font-bold text-green-400 ml-[2%]">MODE - </p>
+<p class="text-7xl underline decoration-1  font-bold text-white opacity-60 ml-[1%]">ON</p>
+</div>
+<script>
+  // alert('HI');
+//   function cmp(a,b)
+//   {
+//     if(a>b)
+//     return a;
+//     else if(b>a)
+//     return b;
+//     else
+//     return  "equal";
+//   }
+//  let y = cmp(2,2);
+//  console.log(y);
+let age=prompt(
+  "what is your age?");
+console.log(age);
+if(age<10)
+alert('*YOU CANNOT ENTER*');
+else
+alert('YOU CAN ENTER');
+</script>
+</body>
+</html>
